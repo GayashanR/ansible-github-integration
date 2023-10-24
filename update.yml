@@ -4,4 +4,4 @@
   tasks:
     - name: Print Hello
       debug:
-        msg: "Hello from Ansible Tower intel tag same 1.0.2!"
+        msg: "Hello from Ansible Tower intel tag same 1.0.3! {$release_tag}"
