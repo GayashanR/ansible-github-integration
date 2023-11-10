@@ -1,3 +1,5 @@
 # inventory/application.yml
 repos_1: "common_api_gateway"
-LOGGING_PATTERN: "{{ LOGGING_PATTERN_TEMP }}"
+properties:
+  LOGGING_PATTERN: "{{ LOGGING_PATTERN_TEMP }}"
+  color: "Yellow"
