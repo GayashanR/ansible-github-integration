@@ -3,5 +3,6 @@
   vars:
     app_conf: "crds/calendar/calendar"
     variable1: "calendar"
+    repos: "cal"
   roles:
     - role: crds
