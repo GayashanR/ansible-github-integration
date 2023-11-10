@@ -5,5 +5,5 @@ app_config_file: "{{ apps_home }}/{{ app_conf }}.yml"
 _application: "{{ lookup('template', '{{ app_config_file }}') | from_yaml }}"
 
 application: "{{ _application }}"
-rep: "{{ application.repos }}"
+#rep: "{{ application.repos }}"
 logging_pat: "{{ application.LOGGING_PATTERN }}"
