@@ -1,0 +1,2 @@
+# roles/your_role_name/defaults/main.yml
+LOGGING_PATTERN_TEMP: "%d{yyyy-MM-dd’T’HH:mm:ss.SSSXXX,UTC) %-5level [{{ variable1 }}, TraceId: %X{traceId:-}, SpanId: %X(spanId: -}] ThreadId: [%t] %Logger{36}.%M - %nlf(%msg ) %wEx %n"

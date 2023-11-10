@@ -1,0 +1,4 @@
+- name: calendar
+  hosts: localhost
+  roles:
+    - role: crds

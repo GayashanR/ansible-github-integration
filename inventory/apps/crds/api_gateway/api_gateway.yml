@@ -1,0 +1,3 @@
+# inventory/application.yml
+repos: "common_api_gateway"
+LOGGING PATTERN: "{{ LOGGING_PATTERN_TEMP | replace('variable1', repos) }}"

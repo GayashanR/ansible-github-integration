@@ -1,0 +1,4 @@
+- name: api_gateway
+  hosts: localhost
+  roles:
+    - role: crds
