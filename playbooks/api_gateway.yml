@@ -3,6 +3,5 @@
   vars:
     app_conf: "crds/api_gateway/api_gateway"
     variable1: "api_gateway"
-    repos: "ap"
   roles:
     - role: crds
