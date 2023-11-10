@@ -2,5 +2,6 @@
   hosts: localhost
   vars:
     app_conf: "crds/api_gateway/api_gateway"
+    repos: "{{ repos_1 }}"
   roles:
     - role: crds
