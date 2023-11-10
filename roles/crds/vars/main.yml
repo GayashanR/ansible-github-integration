@@ -1,4 +1,4 @@
-apps_home: "{{ playbook_dir }}/../../inventory/apps"
+apps_home: "{{ playbook_dir }}/../inventory/apps"
 
 app_config_file: "{{ apps_home }}/{{ app_conf }}.yml"
 
