@@ -1,4 +1,6 @@
 - name: api_gateway
   hosts: localhost
+  vars:
+    app_conf: "crds/api_gateway/api_gateway"
   roles:
     - role: crds

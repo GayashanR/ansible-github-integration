@@ -1,4 +1,6 @@
 - name: calendar
   hosts: localhost
+  vars:
+    app_conf: "crds/calendar/calendar"
   roles:
     - role: crds
