@@ -2,6 +2,8 @@
   hosts: localhost
   vars:
     app_conf: "crds/calendar/calendar"
-    repos: "cal"
+
   roles:
     - role: crds
+      vars:
+        repos: "calen"
